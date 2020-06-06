@@ -5,7 +5,8 @@
     color: #808080;
 }
 .services-banner{
-    padding: 16px;
+    padding: 16px; 
+    overflow: hidden;
     .dimHead{
         font-size: 24px;
         font-weight: 300;
@@ -19,7 +20,7 @@
     @media(min-width:767.98px){
     h1{
         padding-right: 20rem;
-        font-family: Poppins;
+        font-family: Poppins; 
         font-weight: bold;
         font-size: 70px;
         line-height: 70px;

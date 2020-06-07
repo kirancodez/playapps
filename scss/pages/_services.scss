@@ -45,7 +45,7 @@
   .banner-donut{
         position: absolute;
         right: -84px;
-        top: 112px;
+        top: 220px;
         z-index: 3;
         width: 136px!important;
         height: auto;
@@ -58,7 +58,7 @@
     .imageDiv{
         height: 250px;
         overflow: hidden;
-        border-radius: 0px 0px 20px 20px;
+        border-radius: 20px 20px 20px 20px;
     }
     h3{
         font-size: 30px;
@@ -192,6 +192,11 @@
             font-size: 4em;
             line-height: 50px;
             margin-bottom: 25px;
+        }
+    }
+    .conclution{
+        .card-deck{
+            text-align: center;
         }
     }
 }

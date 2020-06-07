@@ -149,10 +149,6 @@
     .dimHead{
             margin-bottom: 1.7rem !important;
     }
-     .services-banner{
-        margin-bottom: 6rem;
-        overflow: hidden;
-    }
     .banner-donut{
         position: absolute;
         right: -128px;
@@ -182,5 +178,10 @@
         .card-deck{
             margin: 190px;
         }
+    }
+}
+@media(max-width:767.98px){
+    .services-banner{
+        overflow: hidden;
     }
 }

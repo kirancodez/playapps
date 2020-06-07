@@ -62,8 +62,8 @@
     position: absolute;
     width: 150px!important;
     height: auto;
-    top: 152px;
-    right: -49px;
+    top: 131px;
+    right: 0;
     }
 
 .servicesSec{
@@ -133,7 +133,6 @@
     .serviceRow{
         margin-top: 4rem;
         position: relative;
-        overflow: hidden;
     }
 }
 .conclution{
@@ -193,6 +192,9 @@
     top: 346px;
     }
     .servicesSec{
+        h3{
+            margin-top: 40px;
+        }
         .imageDiv{
             height: auto;
         }
@@ -214,6 +216,11 @@
             margin: 190px;
         }
     }
+    .services-banner {
+    padding: 16px;
+    padding-left: 140px;
+    padding-bottom: 130px;
+}
 }
 @media(max-width:767.98px){
     .services-banner{

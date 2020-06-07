@@ -99,9 +99,14 @@
                 color: #fff;
 
             }
+             .card-body{
+                padding: 16px 24px 35px 25px
+
+                }
             @media (min-width:767.98px){
                 .card-body{
-                    padding: 30px;
+                    padding: 39px 34px 48px 34px;
+
                 }
                 .abt-cards-sec{
                     position: relative ;

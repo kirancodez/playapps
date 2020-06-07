@@ -6,7 +6,6 @@
 }
 .services-banner{
     padding: 16px; 
-    overflow: hidden;
     .dimHead{
         font-size: 24px;
         font-weight: 300;
@@ -78,7 +77,7 @@
             font-size: 15px;
             line-height: 30px;
             text-align: left;
-            color: #000;
+            color:#3e3e3e;
             opacity: 0.7;
             padding: 3px;
             img{
@@ -150,6 +149,10 @@
     .dimHead{
             margin-bottom: 1.7rem !important;
     }
+     .services-banner{
+        margin-bottom: 6rem;
+        overflow: hidden;
+    }
     .banner-donut{
         position: absolute;
         right: -128px;
@@ -158,9 +161,7 @@
         width: 251px !important;
         height: auto;
     }
-    .services-banner{
-        margin-bottom: 6rem;
-    }
+   
     .servicesSec{
         .imageDiv{
             height: auto;

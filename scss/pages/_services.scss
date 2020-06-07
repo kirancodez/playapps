@@ -45,7 +45,7 @@
   .banner-donut{
         position: absolute;
         right: -84px;
-        top: 220px;
+        top: 5px;
         z-index: 3;
         width: 136px!important;
         height: auto;
@@ -188,11 +188,11 @@
         overflow: hidden;
     }
     .services-banner{
-        h1{
-            font-size: 4em;
-            line-height: 50px;
-            margin-bottom: 25px;
-        }
+        // h1{
+        //     font-size: 4em;
+        //     line-height: 50px;
+        //     margin-bottom: 25px;
+        // }
     }
     .conclution{
         .card-deck{

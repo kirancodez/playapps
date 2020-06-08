@@ -134,7 +134,3 @@ $(window).load(function () {
     alert("Sd");
 });
 
-$(document).ready(function () {
-    $('.your-class').slick({
-  });
-});

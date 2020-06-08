@@ -192,3 +192,154 @@ position: absolute;
 }
 
 
+.technoSlide{
+    h2{
+        font-family: Poppins;
+        font-weight: bold;
+        text-align: center;
+        color: #0a004b;
+        margin-top: 10rem;
+        padding-top: 4rem;
+        margin-bottom: 20px;
+
+    }
+    p{
+        margin-bottom: 1rem;
+        // padding: 0px 160px 0px 160px;
+    }
+}
+.LangScrol{
+    margin-left: 25rem;
+}
+.singleLang{
+    padding-bottom: 7rem;
+        .slider-wrapper {
+        padding-left: 400px;
+
+        @include media-breakpoint-down(sm) {
+            padding-left: 0;
+        }
+    }
+
+    .slider {
+        padding-top: 60px;
+
+        .slick-list.draggable {
+            padding-right: 85px;
+
+            @include media-breakpoint-down(lg) {
+                padding-right: 55px;
+            }
+        }
+
+        .slick-track {
+            display: flex;
+            margin: 0 -10px;
+        }
+
+        .item {
+            background: white;
+            height: inherit;
+            margin: 0 10px;
+            padding: 50px 40px;
+            border-radius: 30px;
+            transition: .3s;
+            cursor: pointer;
+
+            .icon {
+                margin-bottom: 45px;
+                transition: .3s;
+            }
+
+            .text {
+                transition: .3s;
+            }
+
+            h6 {
+                margin-bottom: 35px;
+            }
+
+            &:hover {
+                background: #2e207d;
+                h4{
+                    color: white;
+                }
+                .icon,
+                .text {
+                    transform: scale(1.05);
+                    
+                }
+            }
+
+        }
+
+        @include media-breakpoint-down(sm) {
+            .slick-track {
+                margin: 0 5px;
+            }
+
+            .item {
+                margin: 0 5px;
+            }
+        }
+
+        .slick-arrow {
+
+            &.pull-left {
+                left: -110px;
+            }
+
+            &.pull-right {
+                border-radius: 50px 0 0 50px;
+
+
+                &:hover {
+                    width: 119px;
+                    padding-right: 50px;
+                }
+            }
+
+            @include media-breakpoint-down(sm) {
+
+                &.pull-left {
+                    left: -7px;
+                }
+
+                &.pull-right {
+                    border-radius: 50px;
+                    right: 35px;
+
+                    &:hover {
+                        width: 40px;
+                        padding-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+.Req-Quote{
+background: #0a004b;
+padding-top: 7rem;
+padding-bottom: 7rem;
+h2{
+    font-family: Poppins;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 70px;
+    text-align: left;
+    color: #fff;
+
+}
+h5{
+    font-weight: 500;
+}
+.mobile-button{
+    margin-left: 18px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    border-radius: 30px;
+    border: 0px;
+    color: #0a004b;
+}
+}

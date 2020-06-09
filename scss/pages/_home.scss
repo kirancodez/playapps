@@ -253,7 +253,12 @@
             padding-bottom: 40px;
         }
     }
-
+    .services-desc{
+        p{
+            color:#cecece;
+        }
+        
+    }
     .services-desc,
     .slider-wrapper {
         padding-left: 160px;
@@ -1361,8 +1366,8 @@
                     padding-left: 8px;
                     padding-right: 8px;
                 h1{
-                    font-size: 50px;
-                    line-height: 45px;
+                    font-size: 55px;
+                    line-height: 50px;
                 }
                 p{
                     color:#cecece;
@@ -1377,7 +1382,8 @@
                     padding: 0; 
                 }
                 h2{
-                    font-size: 45px;
+                        font-size: 50px;
+                        line-height: 50px;
                 }
             }
             

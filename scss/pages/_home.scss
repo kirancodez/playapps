@@ -255,7 +255,7 @@
     }
     .services-desc{
         p{
-            color:#cecece;
+            opacity: 0.8;
         }
         
     }
@@ -1366,23 +1366,24 @@
                     padding-left: 8px;
                     padding-right: 8px;
                 h1{
-                    font-size: 55px;
-                    line-height: 50px;
+                    font-size: 52px;
+                    line-height: 52px;
                 }
                 p{
-                    color:#cecece;
+                    opacity: 0.75;
+                    margin-bottom: 1.4rem;
                 }
             }
         }
         #services{
             .AbtService{
-                padding-left: 20px;
-                padding-right: 20px;
+                padding-left: 23px;
+                padding-right: 23px;
                 .head{
                     padding: 0; 
                 }
                 h2{
-                        font-size: 50px;
+                        font-size: 48px;
                         line-height: 50px;
                 }
             }

@@ -70,36 +70,3 @@ $(document).ready(function () {
     })
 });
 
-
-$(document).ready(function(){
-    $('.my-slider').cardslider();
-    $('.my-slider').cardslider({
-
-        // keyboard navigation
-        keys: {
-            next: 38,
-            prev: 40
-        },
-
-        // 'up', 'down', 'right', 'left'
-        direction: 'down',
-
-        // shows navigation
-        nav: true,
-
-        // allows swipe event on touch devices
-        swipe: false,
-
-        // shows bottom pagination dots
-        dots: false,
-
-        // infinite loop
-        loop: false,
-
-        // callbacks
-        beforeCardChange: null,
-        afterCardChange: null
-
-    });
-
-});
